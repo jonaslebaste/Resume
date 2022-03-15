@@ -1,0 +1,21 @@
+
+   div {
+    width: 880px;
+    height: 900px;
+    background-position: bottom right, center;
+    background-image: url(girl.png), url(sky.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .bordertop{
+    border-style: solid dashed none;
+    width:auto;
+    /* border-top-style: dotted;  */
+  }
+
+  .borderbody{
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+    border-width: 10px;
+  }
